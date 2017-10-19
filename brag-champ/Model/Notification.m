@@ -36,8 +36,13 @@
             self.followId = [content[@"follow_id"] integerValue];
         } else if (self.type == 2 || self.type == 4) {
             self.video = [Video videoWithDictionary:content[@"post"]];
-        } else if (self.type == 3 || self.type == 5) {
+        } else if (self.type == 3 || self.type == 5 ) {
             self.challenge = [ChallengeVideo challengeVideoWithDictionary:content[@"challenge"]];
+            self.challenge.user = self.user;
+        } else if (self.type == 7) {
+            self.video = [Video videoWithDictionary:content[@"post"]];
+            self.challenge = [ChallengeVideo challengeVideoWithDictionary:content[@"challenge"]];
+            self.challenge.user = self.user;
         }
     }
     

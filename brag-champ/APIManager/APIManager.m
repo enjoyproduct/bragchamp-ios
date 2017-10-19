@@ -144,7 +144,7 @@
             progress((NSInteger)(uploadProgress.completedUnitCount * 100 / uploadProgress.totalUnitCount));
         }
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        NSLog(responseObject);
+//        NSLog(responseObject);
         NSString *status = responseObject[@"status"];
         if ([status isEqualToString:@"success"]) {
             Video *video = [Video videoWithDictionary:responseObject[@"data"]];

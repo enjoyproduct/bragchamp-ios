@@ -233,13 +233,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "brag-champ/User/UsersViewController.m"
-            timestampString = "524645485.163407"
+            filePath = "brag-champ/Home/HomeViewController.m"
+            timestampString = "524992852.066409"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "427"
-            endingLineNumber = "427"
-            landmarkName = "-viewNotification:"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "-settings:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -249,13 +249,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "brag-champ/Home/HomeViewController.m"
-            timestampString = "524992852.066409"
+            filePath = "brag-champ/VideoDetail/ChallengeVideoDetailViewController.m"
+            timestampString = "530100833.736442"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
-            landmarkName = "-settings:"
+            startingLineNumber = "225"
+            endingLineNumber = "225"
+            landmarkName = "-updateSocialInfo"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -2518,13 +2518,6 @@
                                                 <constraint firstAttribute="height" id="1uZ-2j-v8f"/>
                                             </constraints>
                                         </view>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0/0 CHAL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHE-Xn-MdX">
-                                            <rect key="frame" x="289" y="433" width="67" height="18"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                            <color key="textColor" red="0.051105790300000002" green="0.83782122459999997" blue="0.35375475719999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VqG-tj-Am8">
                                             <rect key="frame" x="10" y="407" width="355" height="60"/>
                                             <subviews>
@@ -2759,7 +2752,6 @@
                         <outlet property="commentButton" destination="d3v-E7-NKd" id="0w6-Am-cVP"/>
                         <outlet property="commentTextField" destination="LkH-lY-hR1" id="Xcl-Ck-rSm"/>
                         <outlet property="commentsTableView" destination="7YH-l8-XZI" id="MMy-RE-xJ0"/>
-                        <outlet property="lblChallengeCount" destination="QHE-Xn-MdX" id="75S-NB-1mC"/>
                         <outlet property="lblCommentCount" destination="ykk-cd-x21" id="sY6-19-E7g"/>
                         <outlet property="lblLikeCount" destination="uQx-si-HvX" id="Fgl-mg-5px"/>
                         <outlet property="lblTrashCount" destination="aCD-6o-Xmc" id="M6W-zw-39e"/>
@@ -3718,11 +3710,11 @@
         <image name="views" width="159" height="116"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xOK-9i-HSl"/>
-        <segue reference="mvC-eH-jJW"/>
+        <segue reference="9Uy-VD-Dtv"/>
         <segue reference="Yaz-5X-IpG"/>
         <segue reference="AJd-re-UVT"/>
-        <segue reference="FYz-iz-RRJ"/>
-        <segue reference="9Uy-VD-Dtv"/>
+        <segue reference="mvC-eH-jJW"/>
+        <segue reference="Mhw-rE-9ah"/>
+        <segue reference="xOK-9i-HSl"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -32,8 +32,6 @@
 @property (nonatomic, weak) IBOutlet UIButton *commentButton;
 @property (weak, nonatomic) IBOutlet UIButton *trashButton;
 
-
-
 @property (nonatomic, weak) IBOutlet UICollectionView *challengersCollectionView;
 @property (nonatomic, weak) IBOutlet UIView *tableHeaderBorderView;
 @property (nonatomic, weak) IBOutlet UITableView *commentsTableView;
@@ -47,7 +45,6 @@
 @property (nonatomic, strong) NSArray *otherChallenges;
 @property (nonatomic, strong) ChallengeVideo *selectedChallenge;
 @property (weak, nonatomic) IBOutlet UILabel *lblLikeCount;
-@property (weak, nonatomic) IBOutlet UILabel *lblChallengeCount;
 @property (weak, nonatomic) IBOutlet UILabel *lblTrashCount;
 @property (weak, nonatomic) IBOutlet UILabel *lblCommentCount;
 
@@ -183,7 +180,7 @@
     [self.thumbImageView setIndicatorStyle:UIActivityIndicatorViewStyleGray];
     [self.thumbImageView sd_setImageWithURL:[NSURL URLWithString:[self.challengeVideo.thumbURL stringByReplacingOccurrencesOfString:@"http://" withString:@"https://"]]];
     
-    if (self.video.isCommented) {
+    if (self.challengeVideo.isCommented) {
         self.commentButton.tintColor = COLOR_YELLOW_DARK;
     } else {
         self.commentButton.tintColor = COLOR_GRAY;
@@ -235,7 +232,7 @@
         self.likeButton.tintColor = COLOR_GRAY;
         self.trashButton.tintColor = COLOR_GRAY;
     }
-    if (self.video.isCommented) {
+    if (self.challengeVideo.isCommented) {
         self.commentButton.tintColor = COLOR_YELLOW_DARK;
     } else {
         self.commentButton.tintColor = COLOR_GRAY;
@@ -437,7 +434,6 @@
     self.selectedChallenge = self.otherChallenges[indexPath.item];
     
     ChallengeVideoDetailViewController *challengeVC = [self.storyboard instantiateViewControllerWithIdentifier:@"ChallengeVideoDetailViewController"];
-    challengeVC.video = self.video;
     challengeVC.challengeVideo = self.selectedChallenge;
     challengeVC.challenges = self.challenges;
     [self.navigationController pushViewController:challengeVC animated:YES];
