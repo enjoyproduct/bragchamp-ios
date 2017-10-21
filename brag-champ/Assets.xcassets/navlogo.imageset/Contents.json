@@ -2,16 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "navlogo-1.png",
+      "filename" : "brag champ w trophy new.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "navlogo.png",
+      "filename" : "brag champ w trophy new-1.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
+      "filename" : "brag champ w trophy new-2.png",
       "scale" : "3x"
     }
   ],

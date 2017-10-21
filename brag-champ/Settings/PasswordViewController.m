@@ -31,7 +31,7 @@
     UIButton *titleButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [titleButton setImage:[UIImage imageNamed:@"navlogo"] forState:UIControlStateNormal];
     [titleButton addTarget:self action:@selector(home:) forControlEvents:UIControlEventTouchUpInside];
-    titleButton.frame = CGRectMake(0, 0, 147, 32);
+    titleButton.frame = CGRectMake(0, 0, 120, 40);
     [self.navigationItem setTitleView:titleButton];
 
     self.navigationItem.title = @" ";
