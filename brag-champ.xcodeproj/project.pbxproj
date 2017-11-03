@@ -740,8 +740,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bragchamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "059fefe9-0c2d-474e-9154-c442aba72013";
-				PROVISIONING_PROFILE_SPECIFIER = "bragchamp-adhoc";
+				PROVISIONING_PROFILE = "7a051b67-dd0f-4044-9ae2-0ba1fa5f81da";
+				PROVISIONING_PROFILE_SPECIFIER = "bragchamp-dis";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

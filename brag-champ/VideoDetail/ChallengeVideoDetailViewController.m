@@ -186,9 +186,9 @@
         self.commentButton.tintColor = COLOR_GRAY;
     }
     if ([Me me].userId == self.challengeVideo.userId) {
-        self.likeButton.enabled = NO;
-        self.trashButton.enabled = NO;
-        self.commentButton.enabled = NO;
+        self.likeButton.enabled = YES;
+        self.trashButton.enabled = YES;
+        self.commentButton.enabled = YES;
     } else {
         self.likeButton.enabled = YES;
         self.trashButton.enabled = YES;

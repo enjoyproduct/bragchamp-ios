@@ -137,7 +137,8 @@
 
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     [manager POST:kAPIBaseURL parameters:parameters constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
-        NSString *name = [NSString stringWithFormat:@"%ld-%ld.mp4", (long)me.userId, (long)time(NULL)];
+//        NSString *name = [NSString stringWithFormat:@"%ld-%ld.mp4", (long)me.userId, (long)time(NULL)];
+        NSString *name = [url lastPathComponent];
         [formData appendPartWithFileURL:url name:@"file" fileName:name mimeType:@"video/mp4" error:nil];
     } progress:^(NSProgress * _Nonnull uploadProgress) {
         if (progress) {

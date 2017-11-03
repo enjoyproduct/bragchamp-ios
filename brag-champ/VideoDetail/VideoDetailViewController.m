@@ -211,12 +211,12 @@
 
     
     ////
-    if ([Me me].userId == self.video.userId) {
-        self.likeButton.enabled = NO;
-        self.trashButton.enabled = NO;
-        self.challengeButton.enabled = NO;
-        self.commentButton.enabled = NO;
-    }
+//    if ([Me me].userId == self.video.userId) {
+//        self.likeButton.enabled = YES;
+//        self.trashButton.enabled = NO;
+//        self.challengeButton.enabled = NO;
+//        self.commentButton.enabled = NO;
+//    }
     
     self.challengeLabel.text = self.video.name;
 
